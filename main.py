@@ -178,7 +178,7 @@ while (again == 1):
   print()
   print("----------------------------")
   print()
-  again = input("Would you like to play again? (Y/N): ")
+  again = input("Would you like to play again? (Y/N): ").upper()
   while (again != "Y" and again != "N"):
     print()
     print("You did not enter a valid input.")
