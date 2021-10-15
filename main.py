@@ -186,7 +186,7 @@ while (again == 1):
     print("You did not enter a valid input.")
     time.sleep(1)
     print()
-    again = input("Would you like to play again? (Y/N): ")
+    again = input("Would you like to play again? (Y/N): ").upper()
   if (again == "Y"):
     again = 1
   else:
